@@ -170,6 +170,7 @@ pub use error::{Error, Result};
 pub use ser::{
     flavors, serialize_with_flavor, serializer::Serializer, to_slice, to_slice_cobs,
 };
+pub use varint::{VarintUsize, VarintBuf};
 
 #[cfg(feature = "heapless")]
 pub use ser::{to_vec, to_vec_cobs};
